@@ -1,0 +1,17 @@
+{
+	"manifest_version": 2,
+	"name": "GET二维码",
+	"description": "huwl's 获取url的二维码plugin",
+	"version": "1.0",
+	"icons": {
+		"16": "images/erweima.png",
+		"48": "images/erweima.png",
+		"128": "images/erweima.png"
+	},
+	"permissions":["tabs"],
+	"browser_action": {
+		"default_icon": "images/code.png",
+		"default_title": "huwl's 二维码",
+		"default_popup": "index.html"
+	}
+}
